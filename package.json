@@ -6,11 +6,19 @@
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": ["tpi", "backend", "api", "express"],
+  "keywords": [
+    "tpi",
+    "backend",
+    "api",
+    "express"
+  ],
   "author": "xiaoyi1986811",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "bcryptjs": "^3.0.3",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite3": "^5.1.7"
   },
   "engines": {
     "node": ">=18"
