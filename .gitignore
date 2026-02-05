@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# SQLite 数据库（非常重要！不要上传）
+tpi.db
+*.db
+
+# 环境变量文件（如果未来使用）
+.env
+.env.local
+.env.development
+.env.production
+
+# 日志文件
+logs
+*.log
+
+# 编辑器/IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# 构建输出（前端）
+dist/
+build/
+out/
+
+# macOS
+._*
+
+# Windows
+desktop.ini
+
+# 临时文件
+tmp/
+temp/
