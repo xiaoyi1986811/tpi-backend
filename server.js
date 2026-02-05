@@ -3,8 +3,7 @@ const express = require('express');
 const app = express();
 
 // 正确读取环境变量端口（Render 使用 PORT）
-const PORT = process.env.PORT || 3000;
-
+const PORT = 3000; // 强制使用 3000 端口
 // 启用 CORS 跨域（允许 GitHub Pages 访问）
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
