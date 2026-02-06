@@ -1,26 +1,16 @@
 {
   "name": "tpi-backend",
   "version": "1.0.0",
-  "description": "TPI 全维效能管理系统后端 API 服务",
+  "description": "TPI Full-Spectrum Performance Index Backend API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [
-    "tpi",
-    "backend",
-    "api",
-    "express"
-  ],
-  "author": "xiaoyi1986811",
+  "keywords": ["tpi", "performance", "api", "backend"],
+  "author": "xiaoyi",
   "license": "MIT",
-  "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "express": "^4.22.1",
-    "jsonwebtoken": "^9.0.3",
-    "sqlite3": "^5.1.7"
-  },
   "engines": {
-    "node": ">=18"
+    "node": ">=14.0.0"
   }
 }
