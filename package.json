@@ -4,10 +4,8 @@
   "description": "TPI Full-Spectrum Performance Index Backend API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
-  "keywords": ["tpi", "performance", "api", "backend"],
   "author": "xiaoyi",
   "license": "MIT",
   "engines": {
